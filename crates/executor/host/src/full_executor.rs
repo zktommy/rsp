@@ -396,7 +396,7 @@ where
 
 // Block execution in SP1 is a long-running, blocking task, so run it in a separate thread.
 async fn execute_client<P: Prover + 'static>(
-    number: u64,
+    _number: u64,
     client: Arc<P>,
     pk: &P::ProvingKey,
     stdin: SP1Stdin,

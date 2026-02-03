@@ -26,3 +26,4 @@ elf
 
 input/
 .vscode
+bin/host/sweep.sh
